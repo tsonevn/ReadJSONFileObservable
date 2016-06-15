@@ -1,0 +1,22 @@
+{
+  "studentName": "John",
+  "fatherName": "Robert Galbraith",
+  "motherName": "Diana",
+  "Detail": {
+    "schoolname": "Little Brown",
+    "dateOfBirth": 2013,
+    "phoneNumber": 9781408704004,
+    "Language": "English",
+    "adddress": 494
+  },
+  "SchoolDetails": [
+    {
+      "lastSchoolName": "Ps EM School",
+      "details": "something about school"
+    },
+    {
+      "type": "Kidle Edition",
+      "price": 7.03
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo">
+  <StackLayout >        
+      <Label text="{{info.studentName}}" />
+      <Label text="{{info.fatherName}}" />
+      <Label text="{{info.motherName}}" />
+      <Label text="{{info.Detail.schoolname}}" />
+      <Label text="{{info.Detail.dateOfBirth}}" />
+      <Label text="{{info.Detail.phoneNumber}}" />
+      <Label text="{{info.Detail.Language}}" />
+      <Label text="{{info.Detail.adddress}}" />
+</StackLayout>
+</Page>
