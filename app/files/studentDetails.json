@@ -9,14 +9,14 @@
     "Language": "English",
     "adddress": 494
   },
-  "SchoolDetails": [
+  "reportDetails": [
     {
-      "lastSchoolName": "Ps EM School",
-      "details": "something about school"
+      "parentComent": "Ps EM School",
+      "details": "something school"
     },
     {
-      "type": "Kidle Edition",
-      "price": 7.03
+      "parentComent": "Ps School2",
+      "details": "something about school2"
     }
   ]
 }

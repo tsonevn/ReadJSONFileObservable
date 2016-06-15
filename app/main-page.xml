@@ -8,5 +8,15 @@
       <Label text="{{info.Detail.phoneNumber}}" />
       <Label text="{{info.Detail.Language}}" />
       <Label text="{{info.Detail.adddress}}" />
+      <ListView  items="{{ info.reportDetails }}">
+         <ListView.itemTemplate>
+          <GridLayout cssClass="field-group" columns="auto, auto, *" rows="auto, auto, auto">
+              <StackLayout col="1" colSpan="2" orientation="vertical">
+                  <Label class="textName" text="{{ parentComent }}" horizontalAlignment="stretch" />
+                  <Label class="className" text="{{details}}" horizontalAlignment="stretch" />
+              </StackLayout>
+            </GridLayout>
+         </ListView.itemTemplate>
+      </ListView>
 </StackLayout>
 </Page>
